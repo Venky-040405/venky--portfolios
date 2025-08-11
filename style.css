@@ -20,7 +20,6 @@ body {
     background-size: cover;
 }
 
-
 .Home {
     flex-direction: column;
     position: relative;
@@ -150,13 +149,19 @@ h3 {
     margin-top: 10px;
     border: 5px solid cyan;
     border-radius: 10px;
-    background-color: rgb(0, 0, 0);
-    color: cyan;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Oswald", sans-serif;
+    margin-left: 10px;
 }
 
-#btn :hover {
-    color: rgb(0, 0, 0);
+#btn:hover {
+    background-color: rgb(255, 74, 74);
+    border: 5px solid rgb(254, 255, 255);
 }
+
 
 .p {
     font-family: "Abel", sans-serif;
@@ -270,8 +275,20 @@ h3 {
 .btns {
     border: 5px solid cyan;
     border-radius: 5px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: cyan;
+    height: auto;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.btns:hover {
+    background-color: rgb(255, 74, 74);
+    border: 5px solid rgb(255, 74, 74);
 }
 
 #cal {
@@ -281,7 +298,8 @@ h3 {
 
 .a {
     color: rgb(0, 0, 0);
-    background-color: aqua;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .account {
@@ -314,7 +332,7 @@ h3 {
         justify-content: center;
         right: -30px;
         position: absolute;
-        gap: 20px;
+        gap: 15px;
         top: 20px;
         text-align: center;
         background-color: black;
@@ -386,7 +404,7 @@ h3 {
         width: 300px;
         margin: 0px;
         margin-left: 20px;
-        margin-bottom: 100px;
+        margin-bottom: 40px;
     }
 
 
@@ -432,22 +450,18 @@ h3 {
     }
 
     .About {
-        position: relative;
-        height: 120vh;
+        height: 150vh;
     }
 
     .Skills {
-        position: relative;
-        height: 120vh;
+        height: 150vh;
     }
 
     .project {
-        position: relative;
         height: 200vh;
     }
 
     .contact {
-        position: relative;
         height: 90vh;
     }
 
@@ -461,5 +475,13 @@ h3 {
 
     .header {
         padding: 20px
+    }
+
+    #btn {
+        font-size: smaller;
+    }
+
+    .nav {
+        font-size: large;
     }
 }
