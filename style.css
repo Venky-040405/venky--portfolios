@@ -102,7 +102,7 @@ ul,
     margin-left: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     background-color: black;
 }
 
@@ -493,6 +493,7 @@ h3 {
         margin: 0px:
     }
 }
+
 
 
 
