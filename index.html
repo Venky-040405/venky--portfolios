@@ -33,15 +33,7 @@
 </head>
 
 <body>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const navitem = document.querySelector(".navitem");
-            const navlist = document.querySelector(".navlist ul");
-            navitem.addEventListener("click", () => {
-                navlist.classList.toggle("mobile");
-            });
-        });
-    </script>
+
     <script src="https://kit.fontawesome.com/b97b0f7ef7.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -86,9 +78,9 @@
                             class="fa-brands fa-github"></i></a>
 
                 </div>
-                <!-- <div class="button">
+                <div class="button">
                     <input id="btn" class="btn" type="button" value="download cv">
-                </div> -->
+                </div>
             </div>
             <div class="img">
                 <img class="myimg" src="imgvk3.jpg" alt="my pic">
@@ -101,9 +93,23 @@
             <h3 class="head" style="color: cyan;">About</h3>
         </center>
         <div class="aboutin">
-            <img class="myimg2" src="vkimg.jpg" alt="my pic">
-            <p class="p">I am a Computer Science Engineering student. I developed a small project during my second year
-                with the help of my friends. Our team, called Wargar, is also the name of our dream company.
+            <img class="myimg2" src="vk img.jpg" alt="my pic">
+            <p class="p">
+                I am a highly motivated and curious Computer Science Engineering student with a strong passion for
+                building innovative, functional, and impactful technology solutions. Over the course of my learning
+                journey, I have developed skills in front-end and back-end development, programming in multiple
+                languages, database management, and working with APIs. My projects span across different domains,
+                including web applications, multiplayer games, AI-based tools, and real-time applications, each designed
+                to solve real-world problems and enhance user experiences.
+
+                I enjoy taking ideas from concept to completion — researching, planning, developing, testing, and
+                refining them to create efficient and creative solutions. My technical skill set includes working with
+                HTML, CSS, JavaScript, Python, Firebase, Flask, Node.js, and various APIs, and I am also exploring
+                advanced areas like Machine Learning, NLP, and IoT.
+
+                <!--I am a Computer Science Engineering student. I developed a small project during my second
+                year
+                with the help of my friends. Our team, called Wargar, is also the name of our dream company. -->
             </p>
         </div>
     </div>
@@ -129,7 +135,7 @@
                     </i></li>
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
                     aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 50%">50%
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 80%">80%
                     </div>
                 </div>
             </div>
@@ -139,7 +145,7 @@
                     </i></li>
                 <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
                     aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 30%">30%
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 80%">80%
                     </div>
                 </div>
             </div>
@@ -198,10 +204,11 @@
 
             <div class="calulator">
                 <center>
-                    <img id="cal" src="Screenshot 2024-03-31 031344.png" alt="calulator"
-                        height="200px" width="200px">
+                    <img id="cal"
+                        src="Screenshot 2024-03-31 031344.png"
+                        alt="calulator" height="200px" width="200px">
                     <div class="button">
-                        <button type="button" class="btns"><a class="a" href="#" download="#">download</a></button>
+                        <button type="button" class="btns" onclick="pygame()">link</button>
                     </div>
                     <p style="color: rgb(255, 74, 74);"> pygame project</p>
                 </center>
@@ -212,10 +219,11 @@
 
             <div class="calulator">
                 <center>
-                    <img id="cal" src="WhatsApp Image 2024-08-23 at 23.36.08_9cb57a72.jpg"
+                    <img id="cal"
+                        src="WhatsApp Image 2024-08-23 at 23.36.08_9cb57a72.jpg"
                         alt="calulator" height="200px" width="200px">
                     <div class="button">
-                        <button type="button" class="btns"><a class="a" href="#" download="#">download</a></button>
+                        <button type="button" class="btns" onclick="tictaelink()">link</button>
                     </div>
                     <p style="color: rgb(255, 74, 74);">coming soon</p>
                 </center>
@@ -234,7 +242,7 @@
             <div class="account">
                 <i id="fa" class="fa-regular fa-envelope">
                 </i>
-                <p style="color:cyan;">venkateshelumalai040405@gmail.com</p>
+                <p style="color:cyan;">Email : venkateshelumalai040405@gmail.com</p>
             </div>
             <p style="color:cyan;"> any information to contact to me directly</p>
             <div>
@@ -254,6 +262,30 @@
             </div>
         </center>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navitem = document.querySelector(".navitem");
+            const navlist = document.querySelector(".navlist ul");
+            navitem.addEventListener("click", () => {
+                navlist.classList.toggle("mobile");
+            });
+        });
+
+
+        function tictaelink() {
+            window.location.href = "https://venky-040405.github.io/tic-tak-tac-sample-games/";
+        }
+
+        function pygame() {
+            window.location.href = "https://github.com/Venky-040405/space-game.pygame";
+        }
+
+        const btn = document.getElementById('btn');
+        btn.addEventListener('click', () => {
+            window.open("Venkatesh.E_Resume-2.pdf")
+        })
+    </script>
 
 </body>
 
