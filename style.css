@@ -484,7 +484,16 @@ h3 {
     .nav {
         font-size: large;
     }
+
+    .detail {
+        margin-top: 0px;
+    }
+
+    .section{
+        margin-top:0px;
+    }
 }
+
 
 
 
