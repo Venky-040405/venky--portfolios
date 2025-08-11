@@ -442,6 +442,13 @@ h3 {
         margin-left: 20px;
     }
 
+    .aboutin {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .About {
         height: 150vh;
     }
@@ -478,6 +485,7 @@ h3 {
         font-size: large;
     }
 }
+
 
 
 
