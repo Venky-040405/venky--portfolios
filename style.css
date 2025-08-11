@@ -490,9 +490,14 @@ h3 {
     }
 
     .section{
-        margin-top:0px;
+        margin:0px;
+    }
+
+    p{
+        margin: 0px:
     }
 }
+
 
 
 
