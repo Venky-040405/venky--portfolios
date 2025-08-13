@@ -233,6 +233,47 @@
 
             </div>
         </div>
+        <div class="projectss">
+                <div class="calulator">
+                    <center>
+                        <img id="cal" src="Screenshot 2025-06-17 122547.png"
+                            alt="calulator" height="200px" width="200px" class="multi">
+                        <div class="button">
+                            <button type="button" class="btns" onclick="multiplayer()">link</button>
+                        </div>
+                        <p style="color: rgb(255, 74, 74);">tic-tak-toc-multiplayer</p>
+                    </center>
+
+                </div>
+
+                <div class="calulator">
+                    <center>
+                        <img id="cal" src="Screenshot 2025-08-13 183230.png"
+                            alt="calulator" height="200px" width="200px">
+                        <div class="button">
+                            <button type="button" class="btns" onclick="weathersite()">link</button>
+                        </div>
+                        <p style="color: rgb(255, 74, 74);">Weather-Api</p>
+                    </center>
+
+
+
+                </div>
+
+                <div class="calulator">
+                    <center>
+                        <img id="cal" src="Screenshot 2025-08-13 185901.png"
+                            alt="calulator" height="200px" width="200px">
+                        <div class="button">
+                            <button type="button" class="btns" onclick="landingpage()">link</button>
+                        </div>
+                        <p style="color: rgb(255, 74, 74);">landing-page</p>
+                    </center>
+
+
+                </div>
+            </div>
+        
     </div>
 
     <div id="Contact" class="contact">
@@ -265,33 +306,48 @@
         </center>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const navitem = document.querySelector(".navitem");
-            const navlist = document.querySelector(".navlist ul");
-            navitem.addEventListener("click", () => {
-                navlist.classList.toggle("mobile");
+     <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const navitem = document.querySelector(".navitem");
+                const navlist = document.querySelector(".navlist ul");
+                navitem.addEventListener("click", () => {
+                    navlist.classList.toggle("mobile");
+                });
             });
-        });
 
 
-        function tictaelink() {
-            window.location.href = "https://venky-040405.github.io/tic-tak-tac-sample-games/";
-        }
+            function tictaelink() {
+                window.location.href = "https://venky-040405.github.io/tic-tak-tac-sample-games/";
+            }
 
-        function pygame() {
-            window.location.href = "https://github.com/Venky-040405/space-game.pygame";
-        }
+            function pygame() {
+                window.location.href = "https://github.com/Venky-040405/space-game.pygame/";
+            }
 
-        const btn = document.getElementById('btn');
-        btn.addEventListener('click', () => {
-            window.open("Venkatesh.E_Resume-2.pdf")
-        })
-    </script>
+            function multiplayer() {
+                window.location.href = "https://venky-040405.github.io/tic-tak-toc-multiplayer/";
+            }
+
+            function weathersite() {
+                window.location.href = "https://venky-040405.github.io/weather-website/";
+            }
+
+            function landingpage() {
+                window.location.href = "https://venky-040405.github.io/landingpage-p1/";
+            }
+
+            const btn = document.getElementById('btn');
+            btn.addEventListener('click', () => {
+                window.open("E:/resume/Venkatesh.E_Resume-2.pdf")
+            })
+
+
+        </script>
 
 </body>
 
 </html>
+
 
 
 
